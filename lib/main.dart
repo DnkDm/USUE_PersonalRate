@@ -1,4 +1,3 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 
@@ -9,7 +8,6 @@ import 'package:usue_app_rate2/screens/reset_password_screen.dart';
 import 'package:usue_app_rate2/screens/singup_screen.dart';
 import 'package:usue_app_rate2/screens/verify_email_screen.dart';
 import 'package:usue_app_rate2/services/firebase_streem.dart';
-import 'package:usue_app_rate2/mainapp/person_screen.dart';
 
 // Firebase Авторизация - Сценарии:
 //    Войти - Почта / Пароль
