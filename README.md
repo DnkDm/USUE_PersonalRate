@@ -1,16 +1,22 @@
-# usue_app_rate2
+# USUE_PersonalRate
 
-A new Flutter project.
+Это небольшое приложение было создано для отображения рейтинга людей принимающих участие в университетском соревновании по программированию. 
 
-## Getting Started
+  #### Задачи приложения
+  - Наличие возможности регистрироваться новым участникам
+  - Отображать рейтинг учатников в порядке убывания 
+  - Отоброжать новости
 
-This project is a starting point for a Flutter application.
+## Первое представление пректа
+![di](https://raw.githubusercontent.com/DnkDm/USUE_PersonalRate/49635d98018d41584e3ee16ba50598608c0397a4/PictForReadme/demoAppFigma.png)
+- В качестве БД был выбран FireBase.
+- Регистрация была реализованна через почту, с обязательным подтверждением аккаунта. 
+- Добавлена возможность сброса пароля.
+- В профиле добавлена возможность изменения имени и фотографии пользователя.
 
-A few resources to get you started if this is your first Flutter project:
+### Кроссплатформенность 
+Приложение тестируется на iOS и на Android
+![di](https://github.com/DnkDm/USUE_PersonalRate/blob/main/PictForReadme/demoApp.png?raw=true)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![di](https://github.com/DnkDm/USUE_PersonalRate/blob/main/PictForReadme/demoVideoApp.gif?raw=true)
